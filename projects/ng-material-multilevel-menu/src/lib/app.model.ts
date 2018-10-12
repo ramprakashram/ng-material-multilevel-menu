@@ -7,6 +7,7 @@ export interface MultilevelNodes {
     link?: string;
     externalRedirect?: boolean;
     data: any;
+    imageIcon?: string;
     items?: MultilevelNodes[];
     onSelected?: Function;
 }
