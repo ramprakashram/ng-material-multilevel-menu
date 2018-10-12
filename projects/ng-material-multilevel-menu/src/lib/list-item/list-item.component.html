@@ -4,6 +4,9 @@
     <span *ngIf="node.faIcon" class="amml-icon amml-icon-fa">
       <i [ngClass]="node.faIcon"></i>
     </span>
+    <span *ngIf="node.imageIcon">
+      <img class="rounded-circle img-circle" src="{{node.imageIcon}}" style="width: 36px; height: 36px;">
+    </span>
     <mat-icon *ngIf="node.icon" class="amml-icon">
       {{node.icon}}
     </mat-icon>
